@@ -1,0 +1,11 @@
+applications:
+- services:
+  - fudora-cloudantNoSQLDB
+  - fudora-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: fudora
+  name: fudora
+  path: JavaCloudantDB.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M

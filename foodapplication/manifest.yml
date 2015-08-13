@@ -1,0 +1,11 @@
+applications:
+- services:
+  - foodapplication-cloudantNoSQLDB
+  - foodapplication-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: foodapplication
+  name: foodapplication
+  path: JavaCloudantDB.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
